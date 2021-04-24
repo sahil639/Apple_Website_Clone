@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+
+html{
+    font-size: 10px;
+    font-family:'SF Pro Display' , sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2rem);
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size:  1.4rem;
+    color: #fff;
+    padding: 0  1rem;
+    transition: opacity 0.5s;
+}
+
+.nav-link:hover{
+    opacity: 0.7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("images/icons/apple.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("images/icons/bag.svg") center no-repeat;
+}
+
+
+.iPhone-11-pro{
+    background: url("apple-replica\images\hero\iphone-11-pro\iphone_11_pro_large.jpg");
+    margin-top: 4.4rem;
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iPhone-11-pro{
+    border-top: .6rem solid #fff;
+}
